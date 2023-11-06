@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khulnasoft-lab/trace"
 	"github.com/stretchr/testify/assert"
-
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
+
+	"github.com/khulnasoft-lab/trace"
 )
 
 // TestConversion makes sure we convert all trace supported errors
