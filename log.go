@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/trace/internal"
-
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ssh/terminal"
+
+	"github.com/khulnasoft-lab/trace/internal"
 )
 
 const (

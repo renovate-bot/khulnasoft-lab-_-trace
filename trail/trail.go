@@ -6,14 +6,14 @@ import (
 	"io"
 	"os"
 
-	"github.com/khulnasoft-lab/trace"
-	"github.com/khulnasoft-lab/trace/internal"
-
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
+
+	"github.com/khulnasoft-lab/trace"
+	"github.com/khulnasoft-lab/trace/internal"
 )
 
 // Send is a high level function that:

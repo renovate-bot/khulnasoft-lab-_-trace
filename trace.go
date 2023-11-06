@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/khulnasoft-lab/trace/internal"
-
 	"golang.org/x/net/context"
+
+	"github.com/khulnasoft-lab/trace/internal"
 )
 
 var debug int32

@@ -5,9 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/khulnasoft-lab/trace/internal"
 	"github.com/jonboulle/clockwork"
 	log "github.com/sirupsen/logrus"
+
+	"github.com/khulnasoft-lab/trace/internal"
 )
 
 const (
